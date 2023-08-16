@@ -5,20 +5,18 @@
   "description": "Notifies the user when visiting an untrusted website",
   "permissions": [
     "webNavigation",
-    "notifications",
-    "activeTab"
+    "notifications"
   ],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "icons": {
     "48": "icon.png"
   },
-  "browser_action": {
+  "action": {
+    "default_popup": "popup.html",
     "default_icon": {
       "48": "icon.png"
-    },
-    "default_popup": "popup.html"
+    }
   }
 }

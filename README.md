@@ -1,4 +1,8 @@
 # Untrusted-Site-Notifier
+
+You can add this extension to your Google Chrome browser with this link:
+https://chrome.google.com/webstore/detail/untrusted-site-notifier/bccbfjgkfcndbgdkeplpiabkjfhloljj?utm_source=ext_sidebar&hl=en-US
+
 A Chrome Extension that detects potential phishing websites and unsecured connections
 
 ## Technical Overview and Implementation
